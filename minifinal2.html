@@ -1,0 +1,251 @@
+<html>
+<head>
+<style>
+span{ color:red; font-weight:bold;}
+#dob1{height:20px; width:20px;}
+div{padding:5px}
+body{margin:5px 40px 5px 25px}
+label{margin:10px}
+fieldset{padding:0px}
+legend{ background:#2e7eb7; color:white; 
+       border-radius:5px; font-weight:bold;
+       padding:5px;}
+
+select{width:200px;
+            height:25px;}
+ input[type="text"]{width:200px;height:30px;    }    
+td{padding:3px 15px;width:200px;}          
+</style></head>
+
+<body>
+<div>
+<center><img src="C:\Users\chall\OneDrive\Desktop\New folder (2)\New folder\nagaraju 2 sem\apsrtc.gif" width="90px" height="50px" ></center>
+<center><font size="4"style="color:blue ;font-weight:bold; margin-bottom:2px"> ANDHRA PRADESH STATE ROAD TRANSPORT CORPORATION</font>
+<h2 style="margin-top:5px;"> STUDENT BUS PASS APPLICATION ABOVE SSC</h2></center><br>
+<form>
+<fieldset>
+<td><legend>1.Student 10th Details</legend>
+<table>
+<tr>
+<td>
+<label for ="fname"> 1.1 SSC Board Type <span>*</span></label></td>
+<td><select>
+<option value ="AP SSC" >AP SSC</option>
+<option value ="CBSE ">CBSE</option>
+<option value ="ICSE ">ICSE</option>
+
+<option value ="ORIENTAL ">ORIENTAL </option>
+
+<option value ="APOS ">APOS </option>
+<option value ="OTHER BOARD" >OTHER BOARD</option>
+</select></td>
+<td><label class="s"> 1.2 SSC Regular/<br>Supplementary<span>*</span></label></td>
+<td><select>
+<option value ="Regular" >Regular</option>
+<option value ="Supplementary ">Supplementary </option>
+</select></td>
+</tr>
+<tr>
+<td><label> 1.3 SSC Year of pass<span> *</span></label></td>
+<td><input name="name "type ="text"size"20" maxlength="30" required ></td>
+<td><label> 1.4 SSC hall ticket no . <span>*</span></label></td>
+<td><input name="name "type ="text"size"20" maxlength="30" required >  </td>
+</tr> 
+<tr>
+<td><label>1.5 Date of Birth<br>(dd/mm/yyyy) <span>*</span></label></td>
+<td><input name="date"type ="date" style="width:190px"></td></tr>
+</table>
+</fieldset>
+</form>
+</div>
+<div>
+<form>
+<fieldset>
+<legend>2.Student Details</legend>
+<table>
+<tr>
+<td><label>2.1 Name<span>*</span></label></td>
+<td> <input type="text"></td>
+<td><label for id="father">2.2 Fathers/<br>Guardian's<br> name<span>*</span></label></td>
+<td><input type="text" name="father">
+</td>
+</tr>
+<tr>
+<td><label>2.3 Date of Birth<span>*</span><br><span style="color:blue; font-weight:normal">(dd/mm/yy)</label></td>
+<td><input type="text" name="dob"></td>
+<td><label for id="male">2.4 Gender<span>*</span></label></td>
+<td><input id="male" type="radio"
+ name="gen">
+ <label for id="female">male</label>
+<input id="male" type="radio"
+ name="gen">female</td>
+ </tr>
+ <tr>
+<td> <label for id="dob1">Age As On</label></td>
+<td> <input id="dob1" type="text" name="dob1">year(s)
+<input id="dob1" type="text" name="dob1">months(s)
+<input id="dob1" type="text" name="dob1"><br>day(s)</td>
+<td><label >2.5 AAdhar No:<span>*</span> </label></td><td><input type="text" name="aadhar"></td>
+</tr>
+<tr>
+<td><label>2.6 Mobile no:<span>*</span></label></td>
+<td><input type="text" name="phno"></td>
+<td><label for id="yes">2.7 Is Employee <br>Children</label></td>
+<td ><input id="male" type="radio" name="gen">
+ <label for id="eyes">yes</label>
+<input id="eno" type="radio"
+ name="gen">no</td>
+ </tr><tr>
+<td><label>2.8 Email</label></td>
+<td><input type="mail" name="email"
+style="width:200px;height:30px; " ></td>
+</tr>
+<tr>
+<td></td>
+<td><button style=" color:white;background:#eb346b;border:0px; font-weight:bold;padding-right:80px; height:25px">Upload Manually</button></td>
+</tr>
+<tr>
+<td><label>2.9 Photo<span>*</span> 
+</label></td>
+<td><span style="font-weight:bold; ">OR</span></td>
+</tr>
+<tr>
+<td></td>
+<td><button style=" color:white;background:#eb346b; border:0px; font-weight:bold;padding-right:50px;height:25px">Capture From Webcam</button></td>
+</tr>
+</table>
+</fieldset>
+</frame></div>
+
+<div>
+<frame>
+<fieldset>
+<legend>3. Resedential Address Details</legend>
+<table>
+<tr>
+<td><label>3.1 District<span>*</span></label></td>
+<td><select>
+<option>-- select--</option>
+<option>rgm</option>
+</select></td>
+<td><label>3.2 Mandal<span>*</span></label></td>
+<td><select>
+<option>-- select--</option>
+<option>rgm</option>
+</select></td>
+</tr>
+<tr>
+<td><label>3.3 Village<span>*</span></label></td>
+<td><select>
+<option>-- select--</option>
+<option>rgm</option>
+</select></td>
+<td><label>3.4 Address<span >*</span></label></td>
+<td><textarea rows="2" cols="23"></textarea></td>
+</tr>
+<td></td><td></td><td></td>
+<td><font size="1">(maximum characters:150)</font><br>
+<font size="1">you have
+<button style="width:60px; height:20px;text-align:left">150</button>
+characters left</font></td>
+</tr>
+</table>
+</fieldset>
+</frame></div>
+
+<div><form>
+<fieldset>
+<legend>4.institution Details</legend>
+<table>
+<tr>
+<td class="required">4.1 District<span>*</span></td>
+<td>
+<select name="4.1 District*"</select>
+<option value="-select-">-select-</option>
+<option value="kadapa">kadadpa</option>
+<option value="kurool">kurnool</option>
+<option value="chitoor">chitoor</option>
+</td>
+<td class="required">4.2 Mandal<span>*</span></td>
+<td>
+<select name="4.2 Mandal"</select>
+<option value="-select-">-select-</option>
+<option value="rajupalem">rajupalem</option>
+<option value="chagalammarri">chagalammarri</option>
+<option value="nandyal">nandhal</option>
+</td>
+</tr>
+<tr>
+<td class="required">4.3institution name<span>*</span></td>
+<td>
+<select name="4.3 institution name*"</select>
+<option value="-select-">-select-</option>
+<option value="rgm">rgm</option>
+<option value="mits">mits</option>
+<option value="vit">vit</option>
+</td>
+<td class="required">4.4 course Name<span>*</span></td>
+<td>
+<select name="4.4 course Name*"</select>
+<option value="-select-">-select-</option>
+<option value="cse">cse</option>
+<option value="ece">ece</option>
+<option value="eee">eee</option>
+</td>
+</tr>
+<tr>
+<td class="required">4.5 present course year<span>*</span></td>
+<td>
+<select name="4.5 present courseyear*"</select>
+<option value="-select-">-select-</option>
+<option value="1st year">1st year</option>
+<option value="2nd year">2nd year</option>
+<option value="3rd year">3rd year</option>
+</td>
+<td class="required">4.6 Admission No<span>*</span></td>
+<td>
+<input type="text" >
+</td>
+</tr>
+<tr>
+<td>
+4.7 Institution address<span>*</span>
+</td>
+<td>
+<input type="text" >
+</td>
+</tr>
+</table>
+</fieldset>
+</form></div>
+
+<div>
+<form action="thank.html">
+<fieldset style="padding:30px 0px 10px ">
+<legend>5.Route Details</legend>
+<table>
+<tr>
+<td>5.1 Center<span>*</span>
+<td><select>
+<option>--select--</option>
+<option>RGM</option>
+</select></td>
+<td>5.2 Pass Type Required<span>*</span></td>
+<td><select>
+<option>--select--</option>
+<option>monthly</option>
+<option>Quaterly</option>
+<option>Yearly</option>
+</select></td>
+</table>
+</fieldset>
+</div>
+
+
+<img src="captcha.jpg" width="200" height="50" style=" margin-left:328px"><br><br>
+<label style=" margin-left:200px">Enter Captcha<span>*</span></label>
+<input type="text" style="width:250px;height:30px; "><br><br>
+<input type="submit"value="Submit" style=" width:110px;height:35px;font-weight:bold; background:#eb346b;font-color:white; font-size:20px ; border:0px;margin-left:400px; color:white">
+</form>
+</body>
+</html>
